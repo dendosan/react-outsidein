@@ -7,7 +7,8 @@ describe('Listing Restaurants', () => {
 
     cy.route({
       method: 'GET',
-      url: 'https://api.outsidein.dev/l3zcyVXkcjGUjrIu7bKyQzeQ2/restaurants',
+      url:
+        'https://api.outsidein.dev/l3zcyVXkcjGUjrIu7bKyQzeQ2uFNMtNA/restaurants',
       response: [
         {id: 1, name: sushiPlace},
         {id: 2, name: pizzaPlace},
